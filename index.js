@@ -25,6 +25,7 @@ var $timerButton=(function(){
             }
             else{
                 $btn.val( con.title+"("+num+"s)");
+                $btn.attr("disabled","disabled");
             }
         }, 1000);
     }
