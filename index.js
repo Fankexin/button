@@ -29,7 +29,7 @@ var $timerButton=(function(){
         }, 1000);
     }
     $btn.click(function() {
-        cfg.onClick();
+        con.onClick();
     });
     return {
         show: show
