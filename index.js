@@ -18,7 +18,7 @@ var $timerButton=(function(){
         $btn.val(con.title+"("+num+"s)")
         timer =setInterval(function() {
             num--;
-            if(num===0){
+            if(num===-1){
                 clearInterval(timer);
                 $btn.val(con.title);
                 $btn.removeAttr("disabled");
